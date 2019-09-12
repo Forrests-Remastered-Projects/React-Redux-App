@@ -7,17 +7,17 @@ function mapStateToProps(state) {
   return { image, isFetching };
 }
 
-class goatPics extends Component {
+class GoatPics extends Component {
   render() {
     return (
       <div>
-        <h1>Goats are amazing</h1>
-        <h3>&#8681; Dont believve me? Click this button! &#8681;</h3>
-        <button onClick={this.props.getGoat}>GOAT TIME!</button>
+        <h1>Dogs are amazing</h1>
+        <h3>&#8681; Dont believe me? Click this button! &#8681;</h3>
+        <button onClick={this.props.getGoat}>DOG TIME!</button>
         {this.props.isFetching ? (
           <h1>loading</h1>
         ) : (
-          <img src={this.props.image} alt="Goat" />
+          <img src={this.props.image} alt="DOG" />
         )}
       </div>
     );

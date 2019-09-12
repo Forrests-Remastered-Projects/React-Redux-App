@@ -5,7 +5,7 @@ import {
 } from "../actions/index";
 
 const initialState = {
-  url: "http://placegoat.com/200",
+  url: "https://random.dog/woof.json",
   image: "",
   isFetching: false,
   error: ""

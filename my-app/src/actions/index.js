@@ -11,7 +11,7 @@ function start() {
 }
 
 function http() {
-  return axios.get("http://placegoat.com/200");
+  return axios.get("https://random.dog/woof.json");
 }
 
 function success(data) {
